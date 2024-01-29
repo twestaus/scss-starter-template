@@ -1,7 +1,5 @@
-$clr: rgb(227, 12, 170);
-
-body {
-  background: $clr;
-}
-
-
+@use "base";
+@use "components";
+@use "layout";
+@use "utilities";
+@use "vendor";
