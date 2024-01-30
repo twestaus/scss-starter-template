@@ -1,0 +1,13 @@
+@use "../abstracts/" as *;
+
+body {
+  font-family: $ff-sans;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
