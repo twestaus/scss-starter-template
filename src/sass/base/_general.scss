@@ -1,13 +1,9 @@
 @use "../abstracts/" as *;
 
 body {
-  font-family: $ff-sans;
-}
-
-.center-text {
-  text-align: center;
-}
-
-.text-upper {
-  text-transform: uppercase;
+  font-family: $ff-base;
+  font-weight: $fw-400;
+  font-size: fs(400);
+  color: clr(neutral, dark);
+  line-height: 1.5;
 }
